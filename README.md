@@ -51,6 +51,3 @@ Check out this exact system running live on my server:
 # Sync real-time RCON tracking information every minute
 * * * * * /usr/bin/python3 /opt/rust-sync/rcon_sync.py
 
-###Command,Permissions,Description
-1. ruststats.save,Server Admin / Console,Dispatches an immediate flush save request of all in-memory stats to the JSON cache file.
-2. ruststats.wipe,Server Admin / Console,Erases local active tracking statistics instantly.
